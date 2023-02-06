@@ -112,7 +112,7 @@ nav i:hover {
 
 @media(max-width:576px) {
     .bread {
-        height: 1000px;
+        height: 1100px;
     }
 
     .bread-img {
@@ -258,16 +258,16 @@ nav i:hover {
 
 @media(max-width:768px) {
     .list {
-        height: 1550px;
+        height: 1450px;
     }
 
     .all-list {
-        height: 1500px;
+        height: 1400px;
     }
 
     .white {
-        width: 70%;
-        height: 400px;
+        width: 95%;
+        height: 380px;
     }
 
     .white h3 {
@@ -438,6 +438,9 @@ nav i:hover {
 }
 
 @media(max-width:576px) {
+    .bakery{
+        height: 900px;
+    }
     .b-text {
         height: 345px;
     }
@@ -721,8 +724,15 @@ nav i:hover {
 }
 
 @media(max-width:576px) {
+    .fresh h3{
+        font-size: 30px;
+    }
+    .fresh p{
+        width: 80%;
+        font-size: 19px;
+    }
     .items {
-        height: 3920px;
+        height: 4100px;
     }
 
     .i {
@@ -733,11 +743,6 @@ nav i:hover {
     .i-img {
         width: 300px;
         height: 300px;
-    }
-}
-@media(max-width:476px){
-    .items{
-        height: 4050px;
     }
 }
 .call {
@@ -798,7 +803,15 @@ nav i:hover {
     color: black;
 }
 
-@media(max-width:730px){
+@media(max-width:767px){
+    .c-text h3{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .c-text p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
     .call{
         flex-direction: column;
         height: auto;
@@ -884,6 +897,7 @@ nav i:hover {
     height: 600px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .v-text {
@@ -986,4 +1000,34 @@ nav i:hover {
 .brown a:hover {
     text-decoration: none;
     color: #f1a969;
+}
+@media(max-width:767px){
+    .visit{
+        height: auto;
+    }
+    .v-text{
+        width: 100%;
+    }
+    .v1-img{
+        width: 100%;
+    }
+}
+@media(max-width:576px){
+    .roll{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .roll h3{
+        font-size: 35px;
+    }
+    .roll p{
+        width: 90%;
+    }
+    .btn button{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .btn :nth-child(2){
+        margin-right: 15px;
+    }
 }
